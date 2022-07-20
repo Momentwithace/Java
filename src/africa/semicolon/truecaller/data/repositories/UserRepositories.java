@@ -4,10 +4,10 @@ import africa.semicolon.truecaller.data.models.User;
 
 import java.util.List;
 
-public interface UserRepostoories {
+public interface UserRepositories {
     User save(User user);
-    User delete(User user);
-    User delete(int id);
+    void delete(User user);
+    void delete(int id);
     User findById(int id);
     List<User> findByFirstName(String firstName);
     List<User> findByLastName(String lastName);

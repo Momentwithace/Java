@@ -3,7 +3,7 @@ package africa.semicolon.truecaller.data.models;
 public class User {
     private int id;
     private String firstName;
-    private String secondName;
+    private String lastName;
     private String phoneNumber;
     private String address;
     private String email;
@@ -16,12 +16,12 @@ public class User {
         this.firstName = firstName;
     }
 
-    public String getSecondName() {
-        return secondName;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setSecondName(String secondName) {
-        this.secondName = secondName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getPhoneNumber() {

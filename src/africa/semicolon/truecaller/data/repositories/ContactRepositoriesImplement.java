@@ -19,6 +19,7 @@ public class ContactRepositoriesImplement implements ContactRepositories {
                 contact.setSecondName(contact.getSecondName());
                 contact.setEmail(contact.getEmail());
                 contact.setPhoneNumber(contact.getPhoneNumber());
+
                 return value;
             }
         }

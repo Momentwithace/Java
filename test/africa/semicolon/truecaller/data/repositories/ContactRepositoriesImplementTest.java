@@ -40,7 +40,6 @@ public class ContactRepositoriesImplementTest {
         ContactRepositories contactRepositories = new ContactRepositoriesImplement();
         Contact contact = new Contact();
         Contact contactTwo = new Contact();
-
         contact.setFirstName("Ace");
         contact.setSecondName("Odogwu");
         contact.setPhoneNumber("111111");
@@ -63,7 +62,7 @@ public class ContactRepositoriesImplementTest {
         Contact contact = new Contact();
         Contact contactTwo = new Contact();
         Contact contactThree = new Contact();
-        contact.setFirstName("Ace");
+        contact.setFirstName("Eden");
         contact.setSecondName("Odogwu");
         contact.setPhoneNumber("111111");
         contact.setEmail("ace@gmail.go");
@@ -78,7 +77,9 @@ public class ContactRepositoriesImplementTest {
         contactThree.setPhoneNumber("333333");
         contactThree.setEmail("ace1@gmail.go");
         contactRepositories.save(contactThree);
-        assertEquals(2, contactRepositories.findByFirstName("Ace").size());
+        assertEquals("Enwe", contactThree.getSecondName());
+        assertEquals(3, contactRepositories.count());
+        assertEquals(2, contactRepositories.findByFirstName("Eden").size());
 
     }
 
@@ -104,6 +105,8 @@ public class ContactRepositoriesImplementTest {
         contactThree.setEmail("ace1@gmail.go");
         contactRepositories.save(contactThree);
         assertEquals(2, contactRepositories.findByLastName("Odogwu").size());
+        assertEquals("Elenwoke", contactTwo.getSecondName());
+        assertEquals(3, contactRepositories.count());
     }
 
     @Test
