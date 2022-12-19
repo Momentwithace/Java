@@ -8,8 +8,8 @@ public class User {
     private String address;
     private String email;
 
-    public String getFirstName() {
-        return firstName;
+    public String getFirstName(String firstName) {
+        return this.firstName;
     }
 
     public void setFirstName(String firstName) {

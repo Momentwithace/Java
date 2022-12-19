@@ -1,6 +1,7 @@
 package africa.semicolon.truecaller.data.repositories;
 
 import africa.semicolon.truecaller.data.models.Contact;
+import africa.semicolon.truecaller.data.repositories.ContactRepositories;
 
 import java.util.ArrayList;
 import java.util.List;

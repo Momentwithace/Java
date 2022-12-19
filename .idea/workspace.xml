@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ce94d0fd-846e-4cdc-9579-b1877d863043" name="Changes" comment="PhoneBookSystem">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/truecaller/dtos/requests/ContactRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/truecaller/dtos/requests/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/truecaller/dtos/responses/ContactResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/truecaller/dtos/responses/RegisterUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/truecaller/exceptions/UserExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/truecaller/services/ContactService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/truecaller/services/ContactServiceImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/truecaller/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/truecaller/services/UserServicesImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/semicolon/truecaller/utils/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/africa/semicolon/truecaller/services/ContactServiceImplementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/africa/semicolon/truecaller/services/UserServiceImplementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhonebookSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PhonebookSystem.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/africa/semicolon/truecaller/data/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/truecaller/data/models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/africa/semicolon/truecaller/data/repositories/ContactRepositoriesImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/truecaller/data/repositories/ContactRepositoriesImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/africa/semicolon/truecaller/data/repositories/UserRepositories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/truecaller/data/repositories/UserRepositories.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/africa/semicolon/truecaller/data/repositories/UserRepositoriesImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/truecaller/data/repositories/UserRepositoriesImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/africa/semicolon/truecaller/data/repositories/ContactRepositoriesImplementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/africa/semicolon/truecaller/data/repositories/ContactRepositoriesImplementTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/africa/semicolon/truecaller/data/repositories/UserRepositoriesImplementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/africa/semicolon/truecaller/data/repositories/UserRepositoriesImplementTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,70 +46,55 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2C7LS7vaqtg0DRqDbPmuYwfXZHg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/home/unlikeace/IdeaProjects/diary",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "875c89aeb843da3158c46a527ba67fc7"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="africa.semicolon.truecaller.services" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="africa.semicolon.truecaller.data.repositories" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="africa.semicolon.truecaller.data.repositories" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserRepositoriesImplementTest">
-    <configuration name="ContactRepositoriesImplementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PhonebookSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="africa.semicolon.truecaller.data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="africa.semicolon.truecaller.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.truecaller.data.repositories.ContactRepositoriesImplementTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactRepositoriesImplementTest.findByLastName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PhonebookSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="africa.semicolon.truecaller.data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="africa.semicolon.truecaller.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.truecaller.data.repositories.ContactRepositoriesImplementTest" />
-      <option name="METHOD_NAME" value="findByLastName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Maven.PhonebookSystem [package]">
     <configuration name="UserRepositoriesImplementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PhonebookSystem" />
       <extension name="coverage">
@@ -141,13 +142,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PhonebookSystem [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="PhonebookSystem [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Maven.PhonebookSystem [package]" />
+        <item itemvalue="Maven.PhonebookSystem [clean]" />
         <item itemvalue="JUnit.UserRepositoriesImplementTest" />
         <item itemvalue="JUnit.UserRepositoriesImplementTest.findAllUser" />
         <item itemvalue="JUnit.UserRepositoriesImplementTest.findById" />
-        <item itemvalue="JUnit.ContactRepositoriesImplementTest.findByLastName" />
-        <item itemvalue="JUnit.ContactRepositoriesImplementTest" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +211,16 @@
       <option name="presentableId" value="Default" />
       <updated>1658148679055</updated>
       <workItem from="1658148681704" duration="17293000" />
+      <workItem from="1658915819541" duration="3954000" />
+      <workItem from="1659078512137" duration="4739000" />
+      <workItem from="1659112213617" duration="269000" />
+      <workItem from="1659112507221" duration="14079000" />
+      <workItem from="1659179207841" duration="2323000" />
+      <workItem from="1659379840599" duration="9545000" />
+      <workItem from="1659625277353" duration="325000" />
+      <workItem from="1662842949229" duration="724000" />
+      <workItem from="1663580616469" duration="21000" />
+      <workItem from="1665820400976" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="PhoneBookSystem">
       <created>1658172933066</created>
@@ -175,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658174085916</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="PhoneBookSystem">
+      <created>1658321396630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658321396630</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

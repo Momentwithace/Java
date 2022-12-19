@@ -1,6 +1,5 @@
 package africa.semicolon.truecaller.data.repositories;
 
-import africa.semicolon.truecaller.data.models.Contact;
 import africa.semicolon.truecaller.data.models.User;
 
 import java.util.ArrayList;
@@ -16,7 +15,7 @@ public class UserRepositoriesImplement implements UserRepositories {
         var userId = user.getId();
         for (User value : users) {
             if (value.getId() == userId) {
-                user.setFirstName(user.getFirstName());
+                user.setFirstName(user.getFirstName(registerRequest.getFirstName()));
                 user.setLastName(user.getLastName());
                 user.setEmail(user.getEmail());
                 user.setPhoneNumber(user.getPhoneNumber());
@@ -79,7 +78,7 @@ public class UserRepositoriesImplement implements UserRepositories {
     public List<User> findByFirstName(String firstName) {
         List<User> newList = new ArrayList<>();
         for (User user : users) {
-            if (Objects.equals(user.getFirstName(), firstName)) {
+            if (Objects.equals(user.getFirstName(registerRequest.getFirstName()), firstName)) {
                 newList.add(user);
             }
         }

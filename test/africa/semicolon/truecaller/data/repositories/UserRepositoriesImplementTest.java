@@ -134,7 +134,7 @@ public class UserRepositoriesImplementTest {
         user.setAddress("barigga");
         userRepositories.save(userThree);
         assertEquals(3, userRepositories.count());
-        assertEquals("Ace", userRepositories.findById(1).getFirstName());
+        assertEquals("Ace", userRepositories.findById(1).getFirstName(registerRequest.getFirstName()));
     }
 
     @Test
